@@ -24,7 +24,7 @@ const BestSellers: React.FC = () => {
       image: "/assets/Images/bestSellers/bestsellers-1.jpg",
       playIcon: "/assets/Images/bestSellers/Icon.png",
       title: "Premium Smartwatch",
-      viewCount: "45K views",
+      viewCount: "45K  views",
       like: "2.3K likes",
       tags: [
         {
