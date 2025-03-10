@@ -11,8 +11,8 @@ import {
   FaBars,
   FaArrowLeft,
 } from "react-icons/fa";
-import cart from "@/public/Assets/Images/cart.png";
-import lady from "@/public/Assets/Images/lady.png";
+import cart from "@/public/assets/Images/cart.png";
+import lady from "@/public/assets/Images/lady.png";
 
 const initialMessages = [
   {
@@ -26,7 +26,7 @@ const initialMessages = [
   {
     id: 2,
     user: "You",
-    avatar: "@/public/Assets/Images/lady.png",
+    avatar: "@/public/assets/Images/lady.png",
     text: "Hi, I was wondering when my glasses will arrive. The tracking hasn't updated in 2 days.",
     time: "10:35 AM",
     sent: true,
@@ -61,7 +61,7 @@ export default function ChatUI() {
       const responseMessage = {
         id: chatMessages.length + 2,
         user: "Support Agent",
-        avatar: "@/public/Assets/Images/lady.png",
+        avatar: "@/public/assets/Images/lady.png",
         text: "I've checked your order status and see that your package is currently at our regional distribution center. There was a slight delay due to weather conditions, but it should resume transit within 24 hours. Your updated delivery estimate is now Jan 19, 2024. Would you like me to send you an email when it ships out?",
         time: new Date().toLocaleTimeString([], {
           hour: "2-digit",

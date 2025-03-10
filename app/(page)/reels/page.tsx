@@ -11,8 +11,8 @@ import {
   ShoppingBag,
   ShoppingCart,
 } from "lucide-react";
-import productreel from "@/public/Assets/Images/productreel.png";
-import lady from "@/public/Assets/Images/lady.png";
+import productreel from "@/public/assets/Images/productreel.png";
+import lady from "@/public/assets/Images/lady.png";
 import { FaPlay } from "react-icons/fa";
 import Link from "next/link";
 
@@ -163,7 +163,7 @@ const ProductPageReplica = () => {
             <>
               {/* Product Title and Price */}
               <div className="flex justify-between items-center mb-4">
-                <div>
+                <div>np
                   <h1 className="text-lg sm:text-xl font-bold text-gray-800">
                     Premium Watch Collection
                   </h1>

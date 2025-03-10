@@ -12,7 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import Image from "next/image";
-import cart from "@/public/Assets/Images/cart.png";
+import cart from "@/public/assets/Images/cart.png";
 
 export default function CancelOrder() {
   const [reason, setReason] = useState("");
